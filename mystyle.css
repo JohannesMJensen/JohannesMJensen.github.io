@@ -20,7 +20,7 @@ body{
   background-size: 400% 100%;
 }
 
-img{animation:rainbow_animation 0.1s ease-in-out infinite;
+img{animation:rainbow_animation 10s ease-in-out infinite;
 
 }
 
