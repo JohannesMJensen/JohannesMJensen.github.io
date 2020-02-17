@@ -20,14 +20,20 @@ body{
   background-size: 400% 100%;
 }
 
+img{animation:rainbow_animation 0.1s ease-in-out infinite;
+
+}
+
 @keyframes rainbow_animation {
   0%,100% {
       background-position: 0 0;
       font-size: 50px;
+      transform: rotate3d(1,1,1, 360deg);
   }
 
   50% {
       background-position: 100% 0;
       font-size: 30px;
+      transform: rotate3d(-1,-1,-1, 180deg);
   }
 }
